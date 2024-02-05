@@ -16,8 +16,25 @@ time make test TEST="test/jdk/java/util/Map/EntrySetIterator.java"
 
 ## Task 2 : simple syntax sugar support
 
-- [ ] empty map
-- [ ] singleton map
+### empty map
+
+- [ ] type the code yourself, [explore existing PR](https://github.com/labset/jdk-workshop/pull/1/files)
+- [ ] **OR ** just sync with the remote branch
+
+```bash
+git fetch origin refs/heads/workshop/jfokus-2024-empty-map:empty-map
+git checkout empty-map
+```
+
+### singleton map
+
+- [ ] type the code yourself, [explore existing PR](https://github.com/labset/jdk-workshop/pull/2)
+- [ ] **OR** just sync with the remote branch
+
+```bash
+git fetch origin refs/heads/workshop/jfokus-2024-singleton-map:singleton-map
+git checkout singleton-map
+```
 
 ## Task 3 : running tests inside the IDE
 
@@ -31,4 +48,5 @@ time make test TEST="test/jdk/java/util/Map/EntrySetIterator.java"
 
 ## Task 5 : explore more tests of the enhanced map syntax
 
+- [ ] full map with String key value pairs
 - [ ] full map with String to any key value pairs 
